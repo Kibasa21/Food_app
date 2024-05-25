@@ -1,10 +1,11 @@
-import { forwardRef, useImperativeHandle, useRef, useState } from "react";
+import { forwardRef, useContext, useImperativeHandle, useRef } from "react";
+import { tableContext } from "../context/tableContextProvider";
 
 const Cart = forwardRef(function Cart({ }, ref) {
 
     const dialog = useRef();
 
-    const isModalOpen = useState(false);
+    const { meals, updateMealQuantity } = useContext(tableContext);
 
     useImperativeHandle(ref, () => {
         return {
@@ -14,31 +15,37 @@ const Cart = forwardRef(function Cart({ }, ref) {
         };
     });
 
+    function calculateTotal() {
+        let total = 0;
+        meals.map((meal) => total += (meal.qnt)*(+meal.price));
+
+        total = new Intl.NumberFormat('en-US', {
+            style: 'currency',
+            currency: 'USD',
+          }).format(total);
+        
+        return total;
+    }
+
     return (
         <dialog ref={dialog} className="modal">
             <h2 className="cart">Your Table</h2>
-            <li className="cart-item"> {/* Organizar */}
-                <div className="cart-item">
-                    <span>Snackzin - 12 pau</span>
-                </div>
-                <div className="cart-item-actions">
-                    <button>-</button>
-                    <span>1</span>
-                    <button>+</button>
-                </div>
-            </li>
-            <li className="cart-item">
-                <div className="cart-item">
-                    <span>Snackzao - 30 pau</span>
-                </div>
-                <div className="cart-item-actions">
-                    <button>-</button>
-                    <span>2</span>
-                    <button>+</button>
-                </div>
-            </li>
+            {
+                meals.map((meal) => (
+                    <li className="cart-item" key={meal.id}>
+                        <div className="cart-item">
+                            <span>{meal.name} - ${meal.price}</span>
+                        </div>
+                        <div className="cart-item-actions">
+                            <button onClick={() => updateMealQuantity('-', meal.id)}>-</button>
+                            <span>{meal.qnt}</span>
+                            <button onClick={() => updateMealQuantity('+', meal.id)}>+</button>
+                        </div>
+                    </li>
+                ))
+            }
             <p className="cart-total">
-                <strong>R$ 42 pau</strong>
+                <strong>{calculateTotal()}</strong>
             </p>
             <div className="modal-actions">
                 <button className="text-button" onClick={() => dialog.current.close()}>Close</button>
