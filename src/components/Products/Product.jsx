@@ -8,7 +8,7 @@ export default function Product({id, image, name, price, description}) {
 
     return (
         <article>
-            <img src={image} alt={name} />
+            <img src={'http://localhost:3000/images/'+image} alt={name} />
             <div>
                 <div>
                     <h3>{name}</h3>

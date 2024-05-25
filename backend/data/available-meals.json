@@ -4,146 +4,146 @@
     "name": "Tapioca",
     "price": "5.99",
     "description": "A traditional Brazilian dish made from tapioca flour, filled with various sweet or savory ingredients.",
-    "image": "../backend/public/images/Tapioca.jpg"
+    "image": "Tapioca.jpg"
   },
   {
     "id": "m2",
     "name": "Feijoada",
     "price": "15.99",
     "description": "A rich, hearty stew made with black beans, pork, and beef, traditionally served with rice and orange slices.",
-    "image": "../backend/public/images/Feijoada.jpg"
+    "image": "Feijoada.jpg"
   },
   {
     "id": "m3",
     "name": "Cuscuz",
     "price": "7.99",
     "description": "A steamed dish made from cornmeal, often mixed with vegetables, meats, or seafood.",
-    "image": "../backend/public/images/cuscuz.jpg"
+    "image": "cuscuz.jpg"
   },
   {
     "id": "m4",
     "name": "Moqueca",
     "price": "18.99",
     "description": "A flavorful Brazilian seafood stew made with fish, coconut milk, tomatoes, and spices.",
-    "image": "../backend/public/images/moqueca.jpg"
+    "image": "moqueca.jpg"
   },
   {
     "id": "m5",
     "name": "Baião de Dois",
     "price": "12.99",
     "description": "A traditional dish from the Northeastern region of Brazil, made with rice, beans, and dried meat.",
-    "image": "../backend/public/images/baiao_de_dois.jpg"
+    "image": "baiao_de_dois.jpg"
   },
   {
     "id": "m6",
     "name": "Cozido",
     "price": "14.99",
     "description": "A hearty Brazilian stew made with various meats, vegetables, and spices.",
-    "image": "../backend/public/images/cozido.jpg"
+    "image": "cozido.jpg"
   },
   {
     "id": "m7",
     "name": "Cartola",
     "price": "6.99",
     "description": "A sweet dessert made from fried bananas, cheese, sugar, and cinnamon.",
-    "image": "../backend/public/images/cartola.jpg"
+    "image": "cartola.jpg"
   },
   {
     "id": "m8",
     "name": "Bolo Souza Leão",
     "price": "8.99",
     "description": "A traditional Brazilian cake made from tapioca flour, coconut milk, and sugar.",
-    "image": "../backend/public/images/bolo_souza_leao.jpg"
+    "image": "bolo_souza_leao.jpg"
   },
   {
     "id": "m9",
     "name": "Pudim",
     "price": "4.99",
     "description": "A creamy Brazilian flan made with condensed milk, eggs, and caramel.",
-    "image": "../backend/public/images/pudim.jpg"
+    "image": "pudim.jpg"
   },
   {
     "id": "m10",
     "name": "Churrasco",
     "price": "19.99",
     "description": "Brazilian barbecue featuring various cuts of meat grilled to perfection.",
-    "image": "../backend/public/images/churrasco.jpg"
+    "image": "churrasco.jpg"
   },
   {
     "id": "m11",
     "name": "Açaí",
     "price": "6.99",
     "description": "A refreshing dish made from frozen açaí berries, often served with granola and fruit.",
-    "image": "../backend/public/images/acai.jpg"
+    "image": "acai.jpg"
   },
   {
     "id": "m12",
     "name": "Salpicão",
     "price": "9.99",
     "description": "A Brazilian chicken salad with vegetables, raisins, and a mayonnaise-based dressing.",
-    "image": "../backend/public/images/salpicao.jpg"
+    "image": "salpicao.jpg"
   },
   {
     "id": "m13",
     "name": "Pão de Queijo",
     "price": "3.99",
     "description": "Chewy and cheesy bread rolls made from tapioca flour and cheese.",
-    "image": "../backend/public/images/pao_de_queijo.jpg"
+    "image": "pao_de_queijo.jpg"
   },
   {
     "id": "m14",
     "name": "Acarajé",
     "price": "5.99",
     "description": "Deep-fried balls made from black-eyed pea dough, filled with shrimp and spicy pastes.",
-    "image": "../backend/public/images/acaraje.jpg"
+    "image": "acaraje.jpg"
   },
   {
     "id": "m15",
     "name": "Caruru",
     "price": "11.99",
     "description": "A dish made with okra, dried shrimp, and spices, traditionally served with acarajé.",
-    "image": "../backend/public/images/caruru.jpg"
+    "image": "caruru.jpg"
   },
   {
     "id": "m16",
     "name": "Sururu de Capote",
     "price": "13.99",
     "description": "A traditional Brazilian dish made with sururu clams cooked in coconut milk and spices.",
-    "image": "../backend/public/images/sururu_de_capote.jpg"
+    "image": "sururu_de_capote.jpg"
   },
   {
     "id": "m17",
     "name": "Dadinho de Tapioca",
     "price": "5.99",
     "description": "Small fried cubes made from tapioca and cheese, often served with a spicy sauce.",
-    "image": "../backend/public/images/dadinho_de_tapioca.jpg"
+    "image": "dadinho_de_tapioca.jpg"
   },
   {
     "id": "m18",
     "name": "Escondidinho",
     "price": "10.99",
     "description": "A layered dish with mashed cassava and a filling of meat, chicken, or shrimp.",
-    "image": "../backend/public/images/escondidinho.jpg"
+    "image": "escondidinho.jpg"
   },
   {
     "id": "m19",
     "name": "Tacacá",
     "price": "8.99",
     "description": "A traditional soup from the Amazon region made with tucupi (a yellow broth), jambu (a local herb), and dried shrimp.",
-    "image": "../backend/public/images/tacaca.jpg"
+    "image": "tacaca.jpg"
   },
   {
     "id": "m20",
     "name": "Pé de Moleque",
     "price": "3.99",
     "description": "A traditional Brazilian sweet made from peanuts and molasses or sugar syrup.",
-    "image": "../backend/public/images/pe_de_moleque.jpg"
+    "image": "pe_de_moleque.jpg"
   },
   {
     "id": "m21",
     "name": "Canjica",
     "price": "4.99",
     "description": "A sweet dish made with hominy corn, milk, sugar, and cinnamon.",
-    "image": "../backend/public/images/canjica.jpg"
+    "image": "canjica.jpg"
   }
 ]
