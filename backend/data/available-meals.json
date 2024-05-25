@@ -1,142 +1,149 @@
 [
   {
     "id": "m1",
-    "name": "Mac & Cheese",
-    "price": "8.99",
-    "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
-    "image": "images/mac-and-cheese.jpg"
+    "name": "Tapioca",
+    "price": "5.99",
+    "description": "A traditional Brazilian dish made from tapioca flour, filled with various sweet or savory ingredients.",
+    "image": "images/tapioca.jpg"
   },
   {
     "id": "m2",
-    "name": "Margherita Pizza",
-    "price": "12.99",
-    "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
-    "image": "images/margherita-pizza.jpg"
+    "name": "Feijoada",
+    "price": "15.99",
+    "description": "A rich, hearty stew made with black beans, pork, and beef, traditionally served with rice and orange slices.",
+    "image": "images/feijoada.jpg"
   },
   {
     "id": "m3",
-    "name": "Caesar Salad",
+    "name": "Cuscuz",
     "price": "7.99",
-    "description": "Romaine lettuce tossed in Caesar dressing, topped with croutons and parmesan shavings.",
-    "image": "images/caesar-salad.jpg"
+    "description": "A steamed dish made from cornmeal, often mixed with vegetables, meats, or seafood.",
+    "image": "images/cuscuz.jpg"
   },
   {
     "id": "m4",
-    "name": "Spaghetti Carbonara",
-    "price": "10.99",
-    "description": "Al dente spaghetti with a creamy sauce made from egg yolk, pecorino cheese, pancetta, and pepper.",
-    "image": "images/spaghetti-carbonara.jpg"
+    "name": "Moqueca",
+    "price": "18.99",
+    "description": "A flavorful Brazilian seafood stew made with fish, coconut milk, tomatoes, and spices.",
+    "image": "images/moqueca.jpg"
   },
   {
     "id": "m5",
-    "name": "Veggie Burger",
-    "price": "9.99",
-    "description": "A juicy veggie patty served on a whole grain bun with lettuce, tomato, and a tangy sauce.",
-    "image": "images/veggie-burger.jpg"
+    "name": "Baião de Dois",
+    "price": "12.99",
+    "description": "A traditional dish from the Northeastern region of Brazil, made with rice, beans, and dried meat.",
+    "image": "images/baiao_de_dois.jpg"
   },
   {
     "id": "m6",
-    "name": "Grilled Chicken Sandwich",
-    "price": "10.99",
-    "description": "Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.",
-    "image": "images/grilled-chicken-sandwich.jpg"
+    "name": "Cozido",
+    "price": "14.99",
+    "description": "A hearty Brazilian stew made with various meats, vegetables, and spices.",
+    "image": "images/cozido.jpg"
   },
   {
     "id": "m7",
-    "name": "Steak Frites",
-    "price": "17.99",
-    "description": "Succulent steak cooked to your preference, served with crispy golden fries and herb butter.",
-    "image": "images/steak-frites.jpg"
+    "name": "Cartola",
+    "price": "6.99",
+    "description": "A sweet dessert made from fried bananas, cheese, sugar, and cinnamon.",
+    "image": "images/cartola.jpg"
   },
   {
     "id": "m8",
-    "name": "Sushi Roll Platter",
-    "price": "15.99",
-    "description": "An assortment of fresh sushi rolls including California, Spicy Tuna, and Eel Avocado.",
-    "image": "images/sushi-roll-platter.jpg"
+    "name": "Bolo Souza Leão",
+    "price": "8.99",
+    "description": "A traditional Brazilian cake made from tapioca flour, coconut milk, and sugar.",
+    "image": "images/bolo_souza_leao.jpg"
   },
   {
     "id": "m9",
-    "name": "Chicken Curry",
-    "price": "13.99",
-    "description": "Tender pieces of chicken simmered in a rich and aromatic curry sauce, served with basmati rice.",
-    "image": "images/chicken-curry.jpg"
+    "name": "Pudim",
+    "price": "4.99",
+    "description": "A creamy Brazilian flan made with condensed milk, eggs, and caramel.",
+    "image": "images/pudim.jpg"
   },
   {
     "id": "m10",
-    "name": "Vegan Buddha Bowl",
-    "price": "11.99",
-    "description": "A hearty bowl filled with quinoa, roasted veggies, avocado, and a tahini dressing.",
-    "image": "images/vegan-buddha-bowl.jpg"
+    "name": "Churrasco",
+    "price": "19.99",
+    "description": "Brazilian barbecue featuring various cuts of meat grilled to perfection.",
+    "image": "images/churrasco.jpg"
   },
   {
     "id": "m11",
-    "name": "Seafood Paella",
-    "price": "19.99",
-    "description": "A Spanish delicacy filled with saffron-infused rice, shrimp, mussels, and chorizo.",
-    "image": "images/seafood-paella.jpg"
+    "name": "Açaí",
+    "price": "6.99",
+    "description": "A refreshing dish made from frozen açaí berries, often served with granola and fruit.",
+    "image": "images/acai.jpg"
   },
   {
     "id": "m12",
-    "name": "Pancake Stack",
-    "price": "8.99",
-    "description": "Fluffy pancakes stacked high, drizzled with maple syrup and topped with fresh berries.",
-    "image": "images/pancake-stack.jpg"
+    "name": "Salpicão",
+    "price": "9.99",
+    "description": "A Brazilian chicken salad with vegetables, raisins, and a mayonnaise-based dressing.",
+    "image": "images/salpicao.jpg"
   },
   {
     "id": "m13",
-    "name": "Miso Ramen",
-    "price": "12.99",
-    "description": "A warming bowl of ramen with miso broth, tender pork, soft-boiled egg, and green onions.",
-    "image": "images/miso-ramen.jpg"
+    "name": "Pão de Queijo",
+    "price": "3.99",
+    "description": "Chewy and cheesy bread rolls made from tapioca flour and cheese.",
+    "image": "images/pao_de_queijo.jpg"
   },
   {
     "id": "m14",
-    "name": "Beef Tacos",
-    "price": "9.99",
-    "description": "Three soft tortillas filled with seasoned beef, fresh salsa, cheese, and sour cream.",
-    "image": "images/beef-tacos.jpg"
+    "name": "Acarajé",
+    "price": "5.99",
+    "description": "Deep-fried balls made from black-eyed pea dough, filled with shrimp and spicy pastes.",
+    "image": "images/acaraje.jpg"
   },
   {
     "id": "m15",
-    "name": "Chocolate Brownie",
-    "price": "5.99",
-    "description": "A rich and fudgy brownie, topped with a scoop of vanilla ice cream and chocolate sauce.",
-    "image": "images/chocolate-brownie.jpg"
+    "name": "Caruru",
+    "price": "11.99",
+    "description": "A dish made with okra, dried shrimp, and spices, traditionally served with acarajé.",
+    "image": "images/caruru.jpg"
   },
   {
     "id": "m16",
-    "name": "Lobster Bisque",
-    "price": "14.99",
-    "description": "A creamy soup made from lobster stock, aromatic vegetables, and a touch of brandy.",
-    "image": "images/lobster-bisque.jpg"
+    "name": "Sururu de Capote",
+    "price": "13.99",
+    "description": "A traditional Brazilian dish made with sururu clams cooked in coconut milk and spices.",
+    "image": "images/sururu_de_capote.jpg"
   },
   {
     "id": "m17",
-    "name": "Mushroom Risotto",
-    "price": "13.99",
-    "description": "Creamy Arborio rice cooked with a medley of wild mushrooms and finished with parmesan.",
-    "image": "images/mushroom-risotto.jpg"
+    "name": "Dadinho de Tapioca",
+    "price": "5.99",
+    "description": "Small fried cubes made from tapioca and cheese, often served with a spicy sauce.",
+    "image": "images/dadinho_de_tapioca.jpg"
   },
   {
     "id": "m18",
-    "name": "Eggplant Parmesan",
-    "price": "11.99",
-    "description": "Layers of breaded eggplant, marinara sauce, and melted mozzarella and parmesan cheeses.",
-    "image": "images/eggplant-parmesan.jpg"
+    "name": "Escondidinho",
+    "price": "10.99",
+    "description": "A layered dish with mashed cassava and a filling of meat, chicken, or shrimp.",
+    "image": "images/escondidinho.jpg"
   },
   {
     "id": "m19",
-    "name": "Lemon Cheesecake",
-    "price": "6.99",
-    "description": "A creamy cheesecake with a tangy lemon flavor, served on a crumbly biscuit base.",
-    "image": "images/lemon-cheesecake.jpg"
+    "name": "Tacacá",
+    "price": "8.99",
+    "description": "A traditional soup from the Amazon region made with tucupi (a yellow broth), jambu (a local herb), and dried shrimp.",
+    "image": "images/tacaca.jpg"
   },
   {
     "id": "m20",
-    "name": "Falafel Wrap",
-    "price": "8.99",
-    "description": "Crispy falafels wrapped in a warm pita with lettuce, tomatoes, and a tahini sauce.",
-    "image": "images/falafel-wrap.jpg"
+    "name": "Pé de Moleque",
+    "price": "3.99",
+    "description": "A traditional Brazilian sweet made from peanuts and molasses or sugar syrup.",
+    "image": "images/pe_de_moleque.jpg"
+  },
+  {
+    "id": "m21",
+    "name": "Canjica",
+    "price": "4.99",
+    "description": "A sweet dish made with hominy corn, milk, sugar, and cinnamon.",
+    "image": "images/canjica.jpg"
   }
 ]
