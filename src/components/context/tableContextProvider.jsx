@@ -6,7 +6,8 @@ import { fetchMeals } from '../../requests';
 export const tableContext = createContext({
     meals: [],
     addMealToTable: () => { },
-    updateMealQuantity: () => { }
+    updateMealQuantity: () => { },
+    total: 1
 })
 
 export default function TableContextProvider({ children }) {
@@ -44,7 +45,7 @@ export default function TableContextProvider({ children }) {
             if(prevMeals[index].qnt === 0){
                 prevMeals.splice(index, 1);
             }
-            
+
             setMeals([...prevMeals.map((meal) => ({ ...meal }))]);
         }
         else {
@@ -55,10 +56,23 @@ export default function TableContextProvider({ children }) {
         }
     }
 
+    function calculateTotal() {
+        let total = 0;
+        meals.map((meal) => total += (meal.qnt)*(+meal.price));
+
+        total = new Intl.NumberFormat('en-US', {
+            style: 'currency',
+            currency: 'USD',
+          }).format(total);
+        
+        return total;
+    }
+
     const ctxValue = {
         meals: meals,
         addMealToTable: handleAddMeal,
-        updateMealQuantity: handleUpdateMealQuantity
+        updateMealQuantity: handleUpdateMealQuantity,
+        total: calculateTotal()
     }
 
     return (

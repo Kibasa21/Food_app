@@ -40,6 +40,42 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+#error {
+  width: 90%;
+  max-width: 70rem;
+  list-style: none;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+#error h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 0;
+  color: #ffc404;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+#fetching {
+  width: 90%;
+  max-width: 70rem;
+  list-style: none;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+#fetching h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+  margin: 0;
+  color: #ffc404;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;

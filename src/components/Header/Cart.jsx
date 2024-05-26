@@ -1,31 +1,22 @@
 import { forwardRef, useContext, useImperativeHandle, useRef } from "react";
 import { tableContext } from "../context/tableContextProvider";
 
-const Cart = forwardRef(function Cart({ }, ref) {
+const Cart = forwardRef(function Cart({ onCheckout }, ref) {
 
     const dialog = useRef();
 
-    const { meals, updateMealQuantity } = useContext(tableContext);
+    const { meals, total, updateMealQuantity } = useContext(tableContext);
 
     useImperativeHandle(ref, () => {
         return {
             open: () => {
                 dialog.current.showModal();
+            },
+            close: () => {
+                dialog.current.close();
             }
         };
     });
-
-    function calculateTotal() {
-        let total = 0;
-        meals.map((meal) => total += (meal.qnt)*(+meal.price));
-
-        total = new Intl.NumberFormat('en-US', {
-            style: 'currency',
-            currency: 'USD',
-          }).format(total);
-        
-        return total;
-    }
 
     return (
         <dialog ref={dialog} className="modal">
@@ -45,11 +36,11 @@ const Cart = forwardRef(function Cart({ }, ref) {
                 ))
             }
             <p className="cart-total">
-                <strong>{calculateTotal()}</strong>
+                <strong>{total}</strong>
             </p>
             <div className="modal-actions">
                 <button className="text-button" onClick={() => dialog.current.close()}>Close</button>
-                <button className="button">Go to Checkout</button>
+                <button className="button" onClick={onCheckout}>Go to Checkout</button>
             </div>
         </dialog>
     );

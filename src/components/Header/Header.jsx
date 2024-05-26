@@ -1,6 +1,6 @@
 import { useContext, useRef } from "react";
-import Cart from "./Cart";
 import { tableContext } from "../context/tableContextProvider";
+import Modal from "../Modal/Modal";
 
 export default function Header() {
 
@@ -9,12 +9,12 @@ export default function Header() {
     const { meals } = useContext(tableContext);
 
     function handleOpenCartClick() {
-        modal.current.open();
+        modal.current.show();
     }
 
     return (
         <>
-            <Cart ref={modal} />
+            <Modal ref={modal} />
             <header id="main-header">
                 <div id="title">
                     <img src="logo.jpg" />
