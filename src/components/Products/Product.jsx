@@ -8,7 +8,7 @@ export default function Product({id, image, name, price, description}) {
 
     return (
         <article>
-            <img src={'http://localhost:3000/images/'+image} alt={name} />
+            <img src={'https://food-app-ec0c.onrender.com/images/'+image} alt={name} />
             <div>
                 <div>
                     <h3>{name}</h3>

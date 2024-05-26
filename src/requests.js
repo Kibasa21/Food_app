@@ -1,5 +1,5 @@
 export async function fetchMeals() {
-    const response = await fetch('http://localhost:3000/meals');
+    const response = await fetch('https://food-app-ec0c.onrender.com/meals');
     const resData = await response.json();
 
     if(!response.ok){
@@ -10,7 +10,7 @@ export async function fetchMeals() {
 }
 
 export async function updateOrder(order) {
-    const response = await fetch('http://localhost:3000/orders', {
+    const response = await fetch('https://food-app-ec0c.onrender.com/orders', {
         method: 'POST',
         body: JSON.stringify({order: order}),
         headers: {
