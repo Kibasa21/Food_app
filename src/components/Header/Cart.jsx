@@ -28,9 +28,9 @@ const Cart = forwardRef(function Cart({ onCheckout }, ref) {
                             <span>{meal.name} - ${meal.price}</span>
                         </div>
                         <div className="cart-item-actions">
-                            <button onClick={() => updateMealQuantity('-', meal.id)}>-</button>
+                            <button className={meal.qnt === 1 ? "cart-item-delete" : "cart-item-normal"} onClick={() => updateMealQuantity('-', meal.id)}>{meal.qnt === 1 ? 'x' : '-'}</button>
                             <span>{meal.qnt}</span>
-                            <button onClick={() => updateMealQuantity('+', meal.id)}>+</button>
+                            <button className="cart-item-normal" onClick={() => updateMealQuantity('+', meal.id)}>+</button>
                         </div>
                     </li>
                 ))

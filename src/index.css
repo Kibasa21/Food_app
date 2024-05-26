@@ -201,17 +201,31 @@ h1 {
   height: 1.5rem;
   border-radius: 50%;
   border: none;
-  background-color: #312c1d;
-  color: #ffc404;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.cart-item-actions button:hover,
-.cart-item-actions button:active {
+.cart-item-normal {
+  background-color: #312c1d;
+  color: #ffc404;
+}
+
+.cart-item-normal:hover,
+.cart-item-normal:active {
   background-color: #1d1a16;
   color: #ffab04;
+}
+
+.cart-item-delete {
+  background-color: #7e1717;
+  color: #ffffff;
+}
+
+.cart-item-delete:hover,
+.cart-item-delete:active {
+  background-color: #7f2727;
+  color: #cbcbcb;
 }
 
 .control {
