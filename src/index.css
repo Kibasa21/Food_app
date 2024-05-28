@@ -26,8 +26,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 10%;
-  background-color: #29251c; /* Ensure the header has a background */
+  padding: 1rem 10%;
+  background-color: white; /* Ensure the header has a background */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
 }
 
