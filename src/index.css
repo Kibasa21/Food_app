@@ -27,7 +27,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 3rem 10%;
-  background-color: linear-gradient(#29251c, #2c2306); /* Ensure the header has a background */
+  background-color: #29251c; /* Ensure the header has a background */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
 }
 
