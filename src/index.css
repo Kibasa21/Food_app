@@ -18,17 +18,10 @@ body {
 }
 
 #main-header {
-  position: fixed; /* Make the header fixed */
-  top: 0; /* Position it at the top */
-  left: 0; /* Position it at the left edge */
-  width: 100%; /* Make it span the full width */
-  z-index: 50; /* Ensure it stays above other content */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 10%;
-  background-color: white; /* Ensure the header has a background */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+  padding: 3rem 10%;
 }
 
 #main-header #title {
