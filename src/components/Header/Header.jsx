@@ -15,7 +15,7 @@ export default function Header() {
     return (
         <>
             <Modal ref={modal} />
-            <header id="main-header">
+            <header className="fixed" id="main-header">
                 <div id="title">
                     <img src="logo.jpg" />
                     <h1>MIGUEL'S FOOD</h1>
